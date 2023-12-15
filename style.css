@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(images/images.jpg);
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+  }
+.main{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    font-size: 23px;
+}
+.main h1{
+    text-align: center;
+    padding-top: 25px;
+}
+.main p{
+    padding-top: 25px;
+    text-align: center;
+    font-size: large;
+}
+#search{
+    text-align: center;
+    padding-top: 25px;
+}
+#search button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#outputtext{
+    color: red;
+}
